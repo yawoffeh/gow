@@ -1,0 +1,63 @@
+body {
+    background-color: #696969;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vmax;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card {
+    margin: 3vh;
+  }
+
+  .card.outline {
+    border: 0.15em dashed #202d7a;
+  }
+
+  .card.shadow {
+    box-shadow: 7px 7px 7px 0 rgba(41, 41, 41, 0.95) !important;
+  }
+
+  .btn {
+    margin-top: 2vh;
+    color: white;
+    background-color: #202d7a;
+    font-weight: bold;
+    border: 2px solid #202d7a;
+  }
+
+.rnd-msg-style{
+  font-size: 25px;
+  color: darkBlue;
+}
+
+#btn2 {
+  margin-left: 12px;
+  width: 120px;
+}
+
+.war {
+  color: red;
+  font-weight: bold;
+  animation: zoom-in-zoom-out 1s ease infinite;
+}
+
+@keyframes zoom-in-zoom-out {
+  0% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1.5, 1.5);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
